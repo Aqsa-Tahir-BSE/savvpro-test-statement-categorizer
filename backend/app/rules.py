@@ -41,7 +41,7 @@ EXTRA_CATEGORIES: list[str] = ["Income", "Personal", "Not Spending"]
 # Rows that are NOT real spending: transfers, card payments, cash.
 NOT_SPENDING: list[str] = [
     "TRANSFER", "PAYMENT THANK YOU", "AUTOPAY", "ONLINE PAYMENT",
-    "ATM WITHDRAWAL", "CREDIT CARD PAYMENT",
+    "CREDIT CARD PAYMENT",
 ]
 
 # Money coming back from a merchant (NOT income).
